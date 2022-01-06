@@ -19,6 +19,5 @@ from homepage.views import index
 
 urlpatterns = [
     path('', index),
-    path('/get', index),
     path('admin/', admin.site.urls),
 ]
